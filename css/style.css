@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bebas Neue', sans-serif;
+}
+p{
+	font-family: 'Philosopher', sans-serif;
+}
+a{ 
+	font-family: 'Philosopher', sans-serif;
+}
+ .before-1::before{
+	content:"";
+	position:absolute;
+	bottom:45%;
+	left:100%;
+	height:2px;
+	border-top:2px dashed blue;
+	width:235%;	
+	}
+	.after-1::after{
+		content:"";
+		position:absolute;
+		top:55%;
+		left:330%;
+		height:415%;
+		border-left:2px dashed blue;
+	}
+	.before-2::before{
+		content:"";
+		position:absolute;
+		top:-530%;
+		left:50%;
+		height:2px;
+		border-top:2px dashed blue;
+		width:200%;	
+	}
+	.after-2::after{
+		content:"";
+		position:absolute;
+		top:-525%;
+		left:50%;
+		height:520%;
+		border-left:2px dashed blue;
+	}
+	.before-3::before{
+		content:"";
+		position:absolute;
+		bottom:45%;
+		right:100%;
+		height:2px;
+		border-top:2px dashed blue;
+		width:645%;	
+	}
+
+	.before-4::before{
+		content:"";
+		position:absolute;
+		bottom:41%;
+		right:450%;
+		height:2px;
+		border-top:2px dashed blue;
+		width:200%;	
+	}
+	.after-4::after{
+		content:"";
+		position:absolute;
+		bottom:48%;
+		right:650%;
+		height:220%;
+		border-left:2px dashed blue;
+
+	}
